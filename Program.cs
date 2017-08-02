@@ -15,7 +15,7 @@ namespace InstaBatch
         static bool oFollower = false, oPrivate = false, oVerify = false;
         static string mInput, mOutput;
         static List<UserStruct> mUsers = new List<UserStruct>();
-        private static string mPattern = @"([a-zA-Z0-9_\-\.]{3,40}):([a-zA-Z0-9_\-\.]{5,40})";
+        private static string mPattern = @"([a-zA-Z0-9_\-\.]{3,40}):([a-zA-Z0-9_\-\.\@\!\:\#\$\%\^\&\*\(\)\[\]]{5,40})";
         private static int mThreads = 10;
         static void Main(string[] args)
         {
